@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Header } from './Header/Header';
 
-const Step1 = () => <>Step 1</>;
+import { Step1 } from './Step1/Step1';
+
 const Step2 = () => <>Step 2</>;
 const Step3 = () => <>Step 3</>;
 const Result = () => <>Result</>;
-
-const Header = () => <h1>Ultimate React form</h1>
 
 function App() {
   return (
