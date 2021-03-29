@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Header } from './Header/Header';
+import { Link } from 'react-router-dom';
 
 import { Step1 } from './Step1/Step1';
-
-const Step2 = () => <>Step 2</>;
-const Step3 = () => <>Step 3</>;
-const Result = () => <>Result</>;
+import { Step2 } from './Step2/Step2';
+import { Step3 } from './Step3/Step3';
+import { Result } from './Result/Result';
 
 function App() {
   return (
